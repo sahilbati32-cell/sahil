@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaWeb | About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Nova<span>Web</span></div>
+            <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><button id="themeToggle" class="icon-btn" aria-label="Switch light/dark theme"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h1>About NovaWeb</h1>
+            <p class="justified-text">
+                Founded with a passion for clean code and user-centric design, NovaWeb helps individuals and small businesses establish a strong, professional presence on the web. We follow web standards, keep our code modular, and test every page across screen sizes so the experience is consistent on phones, tablets and desktops.
+            </p>
+        </section>
+
+        <section class="grid-container">
+            <div class="card reveal">
+                <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                <p class="justified-text">To empower individuals and small businesses with fast, accessible and affordable websites that are simple to maintain and a pleasure to use.</p>
+            </div>
+            <div class="card reveal">
+                <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                <p class="justified-text">To set a benchmark in front-end web development, where structure, style and behaviour are cleanly separated and every site is built to last.</p>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">How long does a website take to build? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p class="justified-text">A simple multi-page site usually takes one to two weeks, depending on content and revisions.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">Will my site work on mobile phones? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p class="justified-text">Yes. Every layout uses Flexbox and CSS Grid with media queries, so pages adapt to phones, tablets and desktops.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">Where is the website hosted? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p class="justified-text">We publish static sites on free, reliable platforms such as GitHub Pages, with HTTPS included.</p></div>
+            </div>
+        </section>
+    </main>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer>
+        <p>&copy; 2026 NovaWeb Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

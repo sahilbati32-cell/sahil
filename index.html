@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaWeb | Home</title>
+    <!-- Font Awesome for navigation icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Nova<span>Web</span></div>
+            <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><button id="themeToggle" class="icon-btn" aria-label="Switch light/dark theme"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Building Modern &amp; Responsive <span id="typed" data-words="Web Experiences,Landing Pages,Online Stores,Portfolios"></span><span class="cursor">|</span></h1>
+            <p>We craft clean, fast, and accessible websites tailored to your needs.</p>
+            <a href="about.html" class="btn">Learn More</a>
+        </section>
+
+        <section class="container">
+            <div class="stats grid-container">
+                <div class="stat reveal"><span class="stat-number" data-target="120">0</span><span class="stat-label">Projects Delivered</span></div>
+                <div class="stat reveal"><span class="stat-number" data-target="45">0</span><span class="stat-label">Happy Clients</span></div>
+                <div class="stat reveal"><span class="stat-number" data-target="8">0</span><span class="stat-label">Years of Experience</span></div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Our Core Services</h2>
+            <p class="hint">Click a card to learn more.</p>
+            <div class="grid-container">
+                <div class="card reveal flip-card" tabindex="0">
+                    <i class="fas fa-code card-icon"></i>
+                    <h3>Web Development</h3>
+                    <p class="justified-text">We build structured, modular web applications using semantic HTML, external CSS and JavaScript so that every page stays easy to maintain and extend.</p>
+                    <p class="card-extra justified-text">Tech: HTML5, CSS3, Flexbox, Grid, vanilla JavaScript.</p>
+                </div>
+                <div class="card reveal flip-card" tabindex="0">
+                    <i class="fas fa-paint-brush card-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p class="justified-text">Our design philosophy focuses on clarity, consistent navigation and a visual hierarchy that guides visitors naturally to what they are looking for.</p>
+                    <p class="card-extra justified-text">Includes wireframes, colour palettes, accessibility checks and responsive layouts.</p>
+                </div>
+                <div class="card reveal flip-card" tabindex="0">
+                    <i class="fas fa-cloud-upload-alt card-icon"></i>
+                    <h3>Cloud Deployment</h3>
+                    <p class="justified-text">From local development to live production, we publish sites on reliable hosting with HTTPS, version control and zero-maintenance updates.</p>
+                    <p class="card-extra justified-text">Hosting on GitHub Pages, Netlify or Cloudflare Pages with automatic updates.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <footer>
+        <p>&copy; 2026 NovaWeb Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
